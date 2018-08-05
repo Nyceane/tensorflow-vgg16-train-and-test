@@ -12,8 +12,8 @@ import collections
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 path = 'vgg16/picture/'
-w = 256
-h = 256
+w = 224
+h = 224
 c = 3
 
 def read_img(path):
