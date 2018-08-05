@@ -11,7 +11,7 @@ import collections
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-path = 'vgg16/picture/'
+path = '/home/u12135/tensorflow-vgg16-train-and-test/vgg16/picture'
 w = 224
 h = 224
 c = 3
