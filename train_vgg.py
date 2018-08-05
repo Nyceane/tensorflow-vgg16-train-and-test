@@ -9,6 +9,8 @@ from skimage import io, transform
 from tensorflow.python.framework import graph_util
 import collections
 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
 path = 'vgg16/picture/'
 w = 224
 h = 224
